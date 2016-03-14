@@ -124,6 +124,8 @@ IB_DESIGNABLE
  */
 @property (nonatomic, assign) NSTimeInterval floatingLabelHideAnimationDuration UI_APPEARANCE_SELECTOR;
 
+@property (nonatomic, assign) IBInspectable BOOL alwaysShowFloatingLabel;
+
 /**
  *  Sets the placeholder and the floating title
  *
